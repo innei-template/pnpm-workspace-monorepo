@@ -1,0 +1,15 @@
+{
+  "name": "@test/web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.tsx",
+  "dependencies": {
+    "@test/ui": "workspace:*",
+    "@test/utils": "workspace:^1.0.0"
+  },
+  "scripts": {
+    "dev": "vite"
+  },
+  "author": "Innei",
+  "license": "MIT"
+}
