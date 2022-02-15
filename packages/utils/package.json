@@ -2,8 +2,11 @@
   "name": "@test/utils",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
+  "main": "dist/index.js",
   "author": "Innei",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
   "dependencies": {}
 }

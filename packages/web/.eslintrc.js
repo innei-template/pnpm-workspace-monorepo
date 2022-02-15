@@ -1,0 +1,1 @@
+module.exports = require('@innei-util/eslint-config-react-ts')

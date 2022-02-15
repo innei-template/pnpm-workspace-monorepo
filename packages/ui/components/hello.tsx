@@ -1,4 +1,9 @@
-import React from 'react'
-import { FC } from 'react'
+import { add } from '@test/utils'
+import React, { FC } from 'react'
 
-export const Hello: FC = () => <>{'Hello!'}</>
+export const Hello: FC = () => (
+  <>
+    {'Hello!'}
+    {add(1, 2)}
+  </>
+)

@@ -2,9 +2,13 @@
   "name": "@test/ui",
   "version": "1.0.0",
   "description": "",
-  "main": "./index.tsx",
-  "scripts": {},
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
   "author": "Innei",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "@test/utils": "workspace:1.0.0"
+  }
 }
