@@ -6,7 +6,8 @@
   "scripts": {
     "build:ui": "pnpm run build -C packages/ui",
     "build:utils": "pnpm run build -C packages/utils",
-    "build": "pnpm run build -r"
+    "build": "pnpm run build -r",
+    "dev:web": "concurrently --kill-others \"pnpm run dev -C packages/web\" \"pnpm run watch -C packages/ui\" \"pnpm run watch -C packages/utils\""
   },
   "devDependencies": {
     "@innei-util/eslint-config-react-ts": "0.2.0",
@@ -19,7 +20,8 @@
     "lodash-es": "4.17.21",
     "typescript": "4.5.5",
     "vite": "2.8.2",
-    "vite-tsconfig-paths": "^3.4.0"
+    "vite-tsconfig-paths": "^3.4.0",
+    "concurrently": "7.0.0"
   },
   "dependencies": {
     "react": "^17.0.2",

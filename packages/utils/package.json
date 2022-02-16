@@ -6,7 +6,8 @@
   "author": "Innei",
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "watch": "tsc -w"
   },
   "dependencies": {}
 }
