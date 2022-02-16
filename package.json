@@ -4,6 +4,7 @@
   "author": "Innei",
   "license": "MIT",
   "scripts": {
+    "prepare": "pnpm run build",
     "build:ui": "pnpm run build -C packages/ui",
     "build:utils": "pnpm run build -C packages/utils",
     "build": "pnpm run build -r",
