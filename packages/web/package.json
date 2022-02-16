@@ -8,7 +8,8 @@
     "@test/utils": "workspace:^1.0.0"
   },
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vite build"
   },
   "author": "Innei",
   "license": "MIT"
