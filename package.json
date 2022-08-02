@@ -5,8 +5,8 @@
   "license": "MIT",
   "scripts": {
     "prepare": "pnpm run build",
-    "build:ui": "pnpm run build -C packages/ui",
-    "build:utils": "pnpm run build -C packages/utils",
+    "build:ui": "pnpm -C packages/ui run build",
+    "build:utils": "pnpm -C packages/utils run build",
     "build": "pnpm run build -r",
     "dev:web": "concurrently --kill-others \"pnpm run dev -C packages/web\" \"pnpm run watch -C packages/ui\" \"pnpm run watch -C packages/utils\""
   },
