@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
+  "exports": {
+    ".": {
+      "default": "./dist/index.js",
+      "vite": "./index.tsx"
+    }
+  },
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w"

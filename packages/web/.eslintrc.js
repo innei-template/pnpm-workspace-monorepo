@@ -1,1 +1,1 @@
-module.exports = require('@innei-util/eslint-config-react-ts')
+module.exports = require('@innei/eslint-config-react-ts')
