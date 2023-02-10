@@ -8,7 +8,7 @@
     "build:ui": "pnpm -C packages/ui run build",
     "build:utils": "pnpm -C packages/utils run build",
     "build": "turbo run build",
-    "dev:web": "concurrently --kill-others \"pnpm -C run dev packages/web\" \"pnpm -C run watch packages/ui\" \"pnpm  -C run watch packages/utils\"",
+    "dev:web": "pnpm -C packages/web dev",
     "version": "bump"
   },
   "bump": {

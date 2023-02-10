@@ -4,6 +4,7 @@
     "jsx": "react",
     "target": "ESNext",
     "module": "CommonJS",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "sourceMap": true
   }
 }

@@ -2,11 +2,11 @@
   "name": "@test/ui",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "./dist/index.js",
   "exports": {
     ".": {
-      "default": "./dist/index.js",
-      "vite": "./index.tsx"
+      "default": "./dist/index.js"
     }
   },
   "scripts": {
